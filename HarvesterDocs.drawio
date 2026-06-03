@@ -40,6 +40,12 @@
         <mxCell id="My-YMjVvDLraQC3a7s5A-13" edge="1" parent="1" source="My-YMjVvDLraQC3a7s5A-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.457;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;" target="My-YMjVvDLraQC3a7s5A-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-20" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;" value="Host OS needs 1 TB while rest will be for persistent storage for VMs" vertex="1">
+          <mxGeometry height="100" width="100" x="120" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-21" parent="1" style="shape=note;size=20;whiteSpace=wrap;html=1;" value="Raw block devices would be preferred" vertex="1">
+          <mxGeometry height="100" width="100" x="160" y="560" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
