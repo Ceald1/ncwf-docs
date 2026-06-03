@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="Kn0JVwPC0gS_tc5ynARX">
+    <mxGraphModel dx="1295" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="My-YMjVvDLraQC3a7s5A-1" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="80" width="44.8" x="90" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-3" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="80" width="44.8" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-4" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" value="" vertex="1">
+          <mxGeometry height="80" width="44.8" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="320" width="120" x="52" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-6" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" value="Harvester Cluster" vertex="1">
+          <mxGeometry height="30" width="150" x="50" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-7" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" value="Banana (10.3.1.2)" vertex="1">
+          <mxGeometry height="30" width="150" x="135" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-11" edge="1" parent="1" source="My-YMjVvDLraQC3a7s5A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="My-YMjVvDLraQC3a7s5A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-8" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" value="PVE (10.3.1.3)" vertex="1">
+          <mxGeometry height="30" width="150" x="134.8" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-9" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" value="Nebula (10.3.1.4)" vertex="1">
+          <mxGeometry height="30" width="150" x="135" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-10" parent="1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;whiteSpace=wrap;strokeColor=#666666;mainText=" value="10.3.1.100 (kubeVIP loadbalancer)" vertex="1">
+          <mxGeometry height="70" width="150" x="400" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-12" edge="1" parent="1" source="My-YMjVvDLraQC3a7s5A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.472;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" target="My-YMjVvDLraQC3a7s5A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="My-YMjVvDLraQC3a7s5A-13" edge="1" parent="1" source="My-YMjVvDLraQC3a7s5A-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.457;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;" target="My-YMjVvDLraQC3a7s5A-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
