@@ -5,11 +5,6 @@
 * Main VM cluster for everything!! And will be the backbone of the whole operation. 
 * ONLY admins will have the password for accessing Harvester.
 ```mermaid
----
-config:
-  theme: dark
-  layout: dagre
----
 flowchart TB
     n1["banana (10.3.1.2)"] --> n4["kubevip ip 10.3.1.100"]
     n2["pve (10.3.1.3)"] --> n4
