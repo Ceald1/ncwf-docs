@@ -4,8 +4,27 @@
 ## Harvester Cluster
 * Main VM cluster for everything!! And will be the backbone of the whole operation. 
 * ONLY admins will have the password for accessing Harvester.
+```mermaid
+---
+config:
+  theme: dark
+  layout: dagre
+---
+flowchart TB
+    n1["banana (10.3.1.2)"] --> n4["kubevip ip 10.3.1.100"]
+    n2["pve (10.3.1.3)"] --> n4
+    n3["nebula (10.3.1.4)"] --> n4
+    n5[" "]
 
-![aa](./exports/HarvesterDocs-Page-1.png)
+    n1@{ img: "https://avatars.githubusercontent.com/u/79673333?s=200&v=4", h: 200, w: 200, pos: "b"}
+    n4@{ icon: "gcp:cloud-load-balancing", pos: "b", h: 203}
+    n2@{ img: "https://avatars.githubusercontent.com/u/79673333?s=200&v=4", h: 200, w: 200, pos: "b"}
+    n3@{ img: "https://avatars.githubusercontent.com/u/79673333?s=200&v=4", h: 200, w: 200, pos: "b"}
+    n5@{ shape: document, pos: "b", label: "host OS needs between 250 GB to 400GB of storage, rest will be for persistent storage for VMs."}
+    n6@{ shape: document, pos: "b", label: "Raw block devices would be preferred."}
+
+
+```
 
 ## Production Cluster
 * Kubernetes cluster for all containers.
