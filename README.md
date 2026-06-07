@@ -21,3 +21,6 @@
 * Keys will be stored on nextcloud as a backup when keys get lost
 * Oauth with itatem will be used as a source of truth to allow existing volunteers with itatem accounts to access their keys if lost.
 * Nexcloud will be a virtual machine inside of harvester or on a completely seperate server.
+
+### Security
+
