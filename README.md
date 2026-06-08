@@ -24,4 +24,7 @@
 
 ### Security
 ![aa](./exports/kubeSecurity-Page-1.png)
-* Still work in progress.
+* Using Tetragon and Kubearmor for policy enforcement.
+* Using Kubescape for security posture and scanning images for vulnerabilities.
+* Need vote and discussion on pod admission.
+
